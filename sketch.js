@@ -1,9 +1,7 @@
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	background ("black");
-
-		
+	background ("black")；		
 }
 
 function draw() {	
@@ -56,7 +54,19 @@ function draw() {
 	fill(42,77,80);
 	triangle(630,680,810,680,810,500);
 
+	//text
+	
+	textFont("Arial");
+	textStyle(BOLD);
+	fill(8,8,6,210);
 
+	textSize(20);
+	text("Close-up of Japan  London 1985", 630,750);
+	
+	textSize(10);
+	text("SINCE I CANNOT RECOGNIZE WHAT IS WRITTEN HERE", 630,770);
+	text("IN THE ORIGINAL POSTER", 630,785);
+	text("I WILL JUST END MY SKETCH HERE", 630,800);
 
 }
 
